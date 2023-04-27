@@ -1,7 +1,9 @@
 # IOT-Project |
 # Automatic Lamp with Weather station and Display Screen
 
+
 Software and API
+
 
 •	Arduino IDE
 
@@ -12,8 +14,10 @@ Software and API
 •	Open weather Map
 
 •	NTP Time server
+
        
 Components
+
 
 •	ESP32 									x 1 piece
 
@@ -24,6 +28,7 @@ Components
 •	Relay									x 1 piece
 
 •	Lamp or light bulb	(Depend on availability)			x 1 piece
+
 
 The Automatic Lamp with Weather station and Display Screen project is the integrated project that are the combination of The Automatic Lamp, and Weather station. In the automatic lamp part, it is the automatic lamp that we can set the time for turning it on and off via the Blynk application, for the iOS and android user that can control from outside. Moreover, the lamp is also can be control by the Apple HomeKit with Siri voice control and/or the shortcut app in iOS devices. Also, the screen display can show the time that we set for the lamp in order to close or open, together with the time that ESP32 is synced with the NTP Time server. The automatic lamp that received the time data sync to NTP time server which then will use the relay to control the lamp on and off at higher voltage
 
